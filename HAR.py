@@ -7,15 +7,7 @@ from sklearn.metrics import accuracy_score
 import time
 import resource
 
-data = {
-    'user': [
-        33, 33, 33, 33, 33, 33,
-        31, 31, 31, 31, 31, 31,
-        22, 22, 22, 22, 22, 22,
-        20, 20, 20, 20, 20,
-        20, 20, 20, 20, 20, 20,
-        3, 3, 3, 3, 3, 3,
-    ],
+data = {
     'activity': [
         'Sitting', 'Sitting', 'Sitting', 'Sitting', 'Sitting', 'Sitting',
         'Walking', 'Walking', 'Walking', 'Walking', 'Walking', 'Walking',
